@@ -1,0 +1,31 @@
+const frutas = [' maçã', 'banana', 'uva'];
+    console.log (frutas);
+
+    frutas [3] = 'abacaxi'; // Adiciona no índice informado
+    console.log (frutas); // Adiciona por último 
+
+    frutas.push ('pêra'); // Remove o último dado adicionado 
+    console.log (frutas); // 
+
+    frutas.pop ();
+ console.log(frutas);
+
+ frutas.slice (0);
+ console.log(frutas);
+
+ //             0 1 2  3  4  5 
+ const numero = [ 1, 2, 3, 4, 5];
+ numero.slice (1,2);
+ console.log (numero);
+
+
+ numero [0] = 100;
+ console.log(numero.indexOf (5));
+ console.log(numero.includes(4));
+ console.log(numero.includes(1));
+ console.log(numero.join(' / '));
+ console.log (numero);
+
+
+ const valores =  [15, 25, 30, 45];
+ console.log(numero.concat (valores));
